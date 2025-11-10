@@ -1,0 +1,25 @@
+# Ignorar entornos locales
+.venv
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar configuraciones del sistema
+*.log
+*.tmp
+
+# Ignorar caches de Python y de dependencias
+.cache/
+pip-cache/
+build/
+dist/
+
+# Ignorar datasets o resultados pesados (si los hubiera)
+*.npy
+*.csv
+*.mat
+
+# Ignorar archivos ocultos del sistema
+.git
+.gitignore
+.DS_Store

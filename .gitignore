@@ -1,4 +1,27 @@
+# Entornos virtuales
+.venv/
+venv/
+
+# Cachés de Python
+__pycache__/
 *.pyc
-.DS_Store
-**/.DS_Store
-.DS_Store
+*.pyo
+*.pyd
+
+# Archivos de datos o modelos pesados
+Data/
+Evaluation/
+Training/
+URDFs/
+Textures/
+images/
+
+# Librerías compiladas
+wheels/*.whl
+
+# Archivos temporales o logs
+*.log
+*.tmp
+*.zip
+*.tar
+*.gz
